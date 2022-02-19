@@ -1,0 +1,39 @@
+Input request: 98.22
+1 fifty
+2 twenties
+1 five
+1 toony
+1 loony
+2 dimes
+
+Input request: 6582.47235
+131 fifties
+1 twenty
+1 ten
+1 toony
+1 quarter
+2 dimes
+
+Input request: 634.63252
+12 fifties
+1 twenty
+1 ten
+2 toonies
+2 quarters
+1 dime
+1 nickel
+
+Input request: 932.2436
+18 fifties
+1 twenty
+1 ten
+1 toony
+1 quarter
+
+Input request: 258.8394
+5 fifties
+1 five
+1 toony
+1 loony
+3 quarters
+1 dime
