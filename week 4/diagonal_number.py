@@ -1,11 +1,8 @@
 '''
-CS5001
-Lab 4
-Question 3 Diagonal Number
-Jing Zhou
-
+Diagonal Number
 This is while loop function diagonal_number() designs for Diagonal
 number which takes a single parameter as an int.
+2/17/2022
 '''
 
 
