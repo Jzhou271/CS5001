@@ -2,6 +2,7 @@
 Palindrome
 This is the function for checking if on input string is a palindrome, also to
 test of this function correctness
+2/23/2022
 """
 import random
 
