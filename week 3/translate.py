@@ -1,9 +1,4 @@
 '''
-CS5001
-Lab 3
-Question 2
-Jing Zhou
-
 This is file contains a function to take a day name in English,
 and return the name in French,
 It also contains tests, to ensure that we are correctly implementing
