@@ -1,9 +1,5 @@
 """
-CS5001
-Lab 5
-Jing Zhou
-Question 3 Palindrome
-
+Palindrome
 This is the function for checking if on input string is a palindrome, also to
 test of this function correctness
 """
