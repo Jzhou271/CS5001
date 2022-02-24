@@ -1,12 +1,9 @@
 '''
-CS5001
-Lab 4
-Question 1 Chessboard
-Jing Zhou
-
+Chessboard
 This code designs for the function chessboard which creates a
 chessboard, and for the functions to check that it is working
 properly
+2/17/2022
 '''
 
 
