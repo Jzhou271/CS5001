@@ -2,6 +2,7 @@
 Average grade
 The file contains a function and tests for average_grade, which takes
 a list and compute average of the list
+2/23/2022
 '''
 import random
 
