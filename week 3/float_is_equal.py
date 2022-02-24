@@ -1,8 +1,9 @@
 '''
-CS5001
-Lab 3
-Question 1 Comparing floats
-Jing Zhou
+Write a function called float_is_equal that takes three parameters. The first
+two parameters are the numbers to compare. The third parameter is a value to 
+use as a threshold. 
+use the fabs function in the math module if you need. It takes a parameter and
+returns the absolute value of the parameter.
 '''
 import math
 
