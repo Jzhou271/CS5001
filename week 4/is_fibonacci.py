@@ -1,11 +1,8 @@
 '''
-CS5001
-Lab 4
-Question 2 Fibonacci sequence
-Jing Zhou
-
+Fibonacci sequence
 This is the code takes a number between 0 and 10000, to determines if it is
 in the Fibonacci sequence.
+2/17/2022
 '''
 
 
