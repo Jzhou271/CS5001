@@ -1,10 +1,6 @@
 """
-CS5001
-Lab 5
-Jing Zhou
-Question 4 Days of the week
-
-This is the file
+Days of the week
+This is the file takes an integer between 1 and 7 and returns the corresponding weekday.
 """
 
 
