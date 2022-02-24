@@ -1,9 +1,5 @@
 '''
-CS5001
-Lab 5
-Jing Zhou
-Question 1 Average grade
-
+Average grade
 The file contains a function and tests for average_grade, which takes
 a list and compute average of the list
 '''
