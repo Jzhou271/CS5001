@@ -1,8 +1,5 @@
-'''CS5001
-   Lab 2
-   Question 1
-   Jing Zhou
-   1/31/2022
+'''
+program should have the user input a single integer value, and then should print out if that is an even or odd number.
 '''
 
 
