@@ -1,7 +1,16 @@
-'''CS5001
-   Homework 2
-   Jing Zhou
-   2/1/2022
+'''
+Design and implement a program that is capable of converting a decimal 
+number between 1 and 4999 (inclusive) as a roman numeral. 
+Value	1000	500	100	50	10	5	1
+Letter	M	D	C	L	X	V	I
+In this assignment, we will be using a simplified version of roman 
+numerals where each of the letter values are additive. This means that 
+MMXXI = 1000 + 1000 + 10 + 10 + 1 = 2021 and MMMMDCCCCLXXXXVIIII = 
+1000 + 1000 + 1000 + 1000 + 500 + 100 + 100 + 100 + 100 + 50 + 10 + 
+10 + 10 + 10 + 5 + 1 + 1 + 1 + 1 = 4999. In this form, the letters 
+are always in descending order so that 4 is represented by IIII rather 
+than the more common IV.
+2/1/2022
 '''
 
 
