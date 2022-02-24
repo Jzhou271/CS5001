@@ -1,8 +1,7 @@
-'''CS5001
-   Lab 2
-   Question 3
-   Jing Zhou
-   1/31/2022
+'''
+Sort 3 numbers input by a user. Do not use arrays or any built in python 
+sorting method. You must sort them on your own using conditionals. 
+1/22/2022
 '''
 
 
