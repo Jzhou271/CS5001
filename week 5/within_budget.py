@@ -1,9 +1,5 @@
 '''
-CS5001
-Lab 5
-Jing Zhou
-Question 2: What can I afford?
-
+What can I afford?
 The code designs for a function of within_budget, takes a list of prices and
 set a value for the budget.
 '''
