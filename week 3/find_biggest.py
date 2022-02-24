@@ -1,10 +1,12 @@
 '''
-CS5001
-Lab 3
-Question 3 Function that Call other functions
-Jing Zhou
+The first function is called biggest. This function should take to numbers 
+as parameters. It should compare the two numbers and return the biggest. 
 
-This file contains two functions and retrun the largest number, respectively.
+The second function is called biggest_of_four. This function should take 
+four parameters, each is a number. It should return the largest of the 
+four numbers. It should not make any comparisons inside this function and
+instead should make use of your other function, biggest. 
+
 '''
 
 
