@@ -1,9 +1,6 @@
 '''
-Jing Zhou
-2022 Jan 20
-CS5001
-
 This is the lab1 assignment.
+1/20/2022
 '''
 
 
