@@ -1,6 +1,5 @@
-'''CS5001
+'''
    Hello World!
-   Jing Zhou
 '''
 
 
