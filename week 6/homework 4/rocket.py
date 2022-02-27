@@ -1,10 +1,8 @@
 """
-CS5001
-Jing Zhou
-Homework 4 Rocket Ship
-2/25/2022
+Rocket Ship
 This is the file to draw a rocket ship. The program should use for a
 size 3 or greater
+2/25/2022
 """
 
 
