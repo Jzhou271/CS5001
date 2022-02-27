@@ -1,7 +1,5 @@
 
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 Fibonacci list
 Write a function called fibonacci that takes a single positive integer
