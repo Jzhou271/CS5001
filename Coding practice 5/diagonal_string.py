@@ -1,6 +1,4 @@
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 diagonal string
 Write a function called diagonal_string that takes a string as a parameter
