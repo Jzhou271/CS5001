@@ -1,6 +1,4 @@
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 Add spaces
 Write a function called add_spaces that takes a string as input and
@@ -18,7 +16,6 @@ def add_spaces(string):
         # (NOTE: use append() for [] instead)
         output += string[index] + "   "
         index += 1
-    # output += string[index]
     output += string[index]
     return output
 
