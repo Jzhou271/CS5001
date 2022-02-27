@@ -36,7 +36,6 @@ def devi_line(size_n):
     :param: integer, the size of rocket
     :return: string
     '''
-
     plus_sign = "+"
     devi_line = "=*"
     count = 2 * size_n
@@ -75,7 +74,6 @@ def rocket_body_2(size_n):
     :param: integer, the size of rocket
     :return: string, representing two inverted trangles in rocket body
     '''
-
     i = 1
     dot_count = size_n - 1
     vertical_bar = "|"
@@ -99,7 +97,6 @@ def rocket(size_n):
     :param: integer, the size of rocket
     :return: string, gather all string from subset functions
     '''
-
     res = ""
     res += rocket_top_and_bottom(size_n)
     res += devi_line(size_n)
