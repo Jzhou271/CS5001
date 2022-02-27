@@ -1,7 +1,5 @@
 
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 Convert to Numbers
 Write a function called to_numbers that receives a list of string values
