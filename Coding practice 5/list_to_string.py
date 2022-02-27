@@ -1,6 +1,4 @@
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 List to string
 Write a function called list_to_string, that takes a list as a parameter
