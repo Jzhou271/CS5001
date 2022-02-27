@@ -1,7 +1,5 @@
 
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 Name Number
 Numerologists claim to be able to determine a person's character
