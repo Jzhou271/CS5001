@@ -1,7 +1,5 @@
 
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 Square each
 Write a function called square_each that receives a list as a parameter
