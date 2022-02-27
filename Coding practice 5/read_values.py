@@ -1,7 +1,5 @@
 
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 Read values
 Write a function called read_values that returns a list of positive
