@@ -1,6 +1,4 @@
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 Read values
 """
