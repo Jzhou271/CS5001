@@ -1,6 +1,4 @@
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 Extract letter
 Write a function called extract_letter that returns the correct letter in
