@@ -10,7 +10,7 @@ each of which represents a number and returns a list of floats.
 def to_numbers(string):
     index = 0
     while index < len(string):
-        # convert string for float number
+        # convert string to float number
         string[index] = float(string[index])
         index += 1
     return string
