@@ -1,6 +1,4 @@
 """
-CS5001
-Jing Zhou
 Coding practice -- Module 5
 Tuple to list
 Write a function called convert_tuple that takes a tuple as a parameter
