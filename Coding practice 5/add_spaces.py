@@ -11,13 +11,12 @@ def add_spaces(string):
         return ""
     output = ""
     index = 0
-    while index < len(string) - 1:
+    while index < len(string):
         # output.append(string[index] + "   ")
         # (NOTE: use append() for [] instead)
         output += string[index] + "   "
         index += 1
-    output += string[index]
-    return output
+    return output.strip()
 
 
 def main():
