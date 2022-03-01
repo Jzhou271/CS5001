@@ -11,11 +11,10 @@ def list_to_string(string):
         return ""
     output = ""
     index = 0
-    while index < len(string) - 1:  # - 1 means up to the last second word
+    while index < len(string):
         output += str(string[index]) + "\n"
         index += 1
-    output += str(string[index]) # this add the last word without \n
-    return output
+    return output.strip()
 
 
 def main():
