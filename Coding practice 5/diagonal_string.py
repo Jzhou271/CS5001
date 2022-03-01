@@ -11,12 +11,11 @@ def diagonal_string(string):
         return ""
     index = 0
     output = ""
-    while index < len(string) - 1:
+    while index < len(string):
         # " " * index represents add a whitespace for each row starts
         output += " " * index + string[index] + "\n"
         index += 1
-    output += " " * index + string[index]
-    return output
+    return output.strip()
 
 
 def main():
