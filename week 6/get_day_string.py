@@ -1,7 +1,4 @@
 """
-CS5001
-Lab 5
-Jing Zhou
 Question 1 Days of the week returns
 """
 
