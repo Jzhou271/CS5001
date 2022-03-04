@@ -1,10 +1,5 @@
 """
-CS5001
-Lab 5
-Jing Zhou
 Question 4 Days of the week
-
-This is the file
 """
 
 
