@@ -1,9 +1,7 @@
 """
-CS5001
-Lab 5
-Jing Zhou
 Question 3 Adding Evens
 """
+import random
 
 
 def add_evens(list_num):
@@ -28,7 +26,7 @@ def add_evens_test():
     expected = 6
     actual = add_evens(list_num)
     if expected != actual:
-        print("FAILED the test")
+        print("FAILED the test", list_num)
     else:
         print("PASSED the test")
 
@@ -36,13 +34,29 @@ def add_evens_test():
     expected = 464
     actual = add_evens(list_num)
     if expected != actual:
-        print("FAILED the test")
+        print("FAILED the test", list_num)
     else:
         print("PASSED the test")
 
 
+def random_test():
+    nums = []
+    for i in range(10):
+        nums.append(random.randint(0, 500))  
+    res = add_evens(nums)
+    test = 0
+    for num in nums:
+        if num % 2 == 0:
+            test += num
+    if test != res:
+        print("RANDOM: FAILED the test")
+    else:
+        print("RANDOM: PASSED the test")
+
+
 def main():
     add_evens_test()
+    random_test()
 
 
 if __name__ == "__main__":
