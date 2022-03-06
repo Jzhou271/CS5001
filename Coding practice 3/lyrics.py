@@ -16,11 +16,12 @@ Old MacDonald had a farm, ee-igh, ee-igh, oh!
 
 def song(animal, sound):
     # method 1
-    res = """Old MacDonald had a farm, Ee-igh, Ee-igh, Oh!
-And on that farm he had a {n}, Ee-igh, Ee-igh, Oh!
+    res = """Old MacDonald had a farm, ee-igh, ee-igh, oh!
+And on that farm he had a {n}, ee-igh, ee-igh, oh!
 With a {s}, {s} here and a {s}, {s} there.
 Here a {s}, there a {s}, everywhere a {s}, {s}.
-Old MacDonald had a farm, Ee-igh, Ee-igh, Oh!\n""".format(n = animal, s = sound)\
+Old MacDonald had a farm, ee-igh, ee-igh, oh!\n""".format(n = animal, s = sound)\
+    return res
 
 
     # method 2
@@ -34,11 +35,11 @@ Old MacDonald had a farm, ee-igh, ee-igh, oh!"""
 
 
     # method 3
-    res = "Old MacDonald had a farm, Ee-igh, Ee-igh, Oh!\n" + \
-          "And on that farm he had a {0}, Ee-igh, Ee-igh, Oh!\n".format(animal) + \
+    res = "Old MacDonald had a farm, ee-igh, ee-igh, oh!\n" + \
+          "And on that farm he had a {0}, ee-igh, ee-igh, oh!\n".format(animal) + \
           "With a {0}, {0} here and a {0}, {0} there.\n".format(sound) + \
           "Here a {0}, there a {0}, everywhere a {0}, {0}.\n".format(sound) + \
-          "Old MacDonald had a farm, Ee-igh, Ee-igh, Oh!\n" 
+          "Old MacDonald had a farm, ee-igh, ee-igh, oh!\n" 
     return res
 
 
