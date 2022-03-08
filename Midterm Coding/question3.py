@@ -32,7 +32,6 @@ def find_smallest_random():
     for i in range(len(nums)):
         if nums[i] < expected:            
             expected = nums[i]
-    print(expected)
     print("random list:", nums)
     actual = find_smallest(nums)
     if actual != expected:
