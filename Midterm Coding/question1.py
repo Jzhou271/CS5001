@@ -13,7 +13,7 @@ def sort_list(input_list):
     This is a function called sort_list that receives a list of string values
     and reorder that comes first and returns the new list. Strings are sorted
     alphabetically, and numbers are sorted numerically.
-    :param: list of inputs, strings
+    :param: list of inputs, strings, integers, floats, and booleans
     :return: list, sorted by ascending order
     """
     new_list = []
