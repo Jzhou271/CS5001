@@ -23,16 +23,15 @@ def find_median(input_list):
     :param input_list: A list of numbers
     :return: The median value of the list
     '''
-    median = 0
+    size = len(input_list)
+    # sorted is a built-in function that will return a sorted list
     sorted_list = sorted(input_list)
-    for i in range(len(sorted_list)):
-        if len(input_list) % 2 != 0:
-            median = int((len(sorted_list) + 1) / 2 - 1)
-            return input_list[median]
-        else:
-            middle1 = int(len(input_list) / 2 - 1)
-            middle2 = int(len(input_list) / 2)
-            return (sorted_list[middle1] + sorted_list[middle2]) / 2
+    median = 0
+    if size % 2 != 0:
+        median = sorted_list[size // 2]
+    else:
+        median = 0.5 * (sorted_list[size // 2] + sorted_list[(size // 2 - 1)])
+    return median
 
 
 def find_median_fix_test():
