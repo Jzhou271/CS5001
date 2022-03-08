@@ -28,7 +28,6 @@ def find_smallest_random():
     nums = []
     for i in range(10):
         nums.append(random.randint(-100, 100))
-    print(nums)
     expected = nums[0]
     for i in range(len(nums)):
         if nums[i] < expected:            
