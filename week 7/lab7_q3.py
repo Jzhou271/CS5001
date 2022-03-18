@@ -17,9 +17,20 @@ def filter_list(list_of_number, threshold):
     numbers in the list
     :return: list, numbers are greater than threshold
     """
-    new_list = filter(lambda res: res > threshold, list_of_number)
-    res = list(new_list)
-    return res
+    # method 1 
+    # new_list = filter(lambda res: res > threshold, list_of_number)
+    # res = list(new_list)
+    # return res
+    
+    # method 2
+    if len(list_of_number) == 0:
+        return []
+    else:
+        if list_of_number[0] > threshold:
+            return [list_of_number[0]] + filter_list(list_of_number[1:],
+                                                     threshold)
+        else:
+            return filter_list(list_of_number[1:], threshold)
 
 
 def filter_list_fixed_test():
