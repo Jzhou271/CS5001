@@ -1,7 +1,4 @@
 """
-CS5001
-Lab 7
-Jing Zhou
 3. Filter list
 """
 import random
