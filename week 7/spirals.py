@@ -9,7 +9,7 @@ ellipse.speed(0)
 ellipse.color('lightcoral')
 
 
-def draw_ellipse(a, b, angle, steps, rotatedangle):
+def draw_ellipse(a, b, angle, steps, rotate):
     """
     This is the function to draw ellipse on the screen, repeated 25 times in
     lightcoral color.
@@ -22,16 +22,14 @@ def draw_ellipse(a, b, angle, steps, rotatedangle):
     """
     min_angle = (2 * math.pi / 360) * angle / steps
     ellipse.penup()
-    ellipse.setpos(b * math.sin(rotatedangle), -b * math.cos(rotatedangle))
+    ellipse.setpos(b * math.sin(rotate), -b * math.cos(rotate))
     ellipse.pendown()
     for i in range(steps):
-        next_point = [a * math.sin((i + 1) * min_angle), 
-                      -b * math.cos((i + 1) * min_angle)]
-        next_point = [next_point[0] * math.cos(rotatedangle)
-                      - next_point[1] * math.sin(rotatedangle), 
-                      next_point[0] * math.sin(rotatedangle)
-                      + next_point[1] * math.cos(rotatedangle)]
-        ellipse.setpos(next_point)
+        point = [a * math.sin((i + 1) * min_angle),
+                 -b * math.cos((i + 1) * min_angle)]
+        point = [point[0] * math.cos(rotate) - point[1] * math.sin(rotate),
+                 point[0] * math.sin(rotate) + point[1] * math.cos(rotate)]
+        ellipse.setpos(point)
 
 
 for i in range(25):
@@ -51,9 +49,9 @@ def draw_diamond(length, angle):
     :param: int or float, interior angle of smaller angle in diamond
     :return: none
     """
-    angle = 360 / 100
+    angle = 360 / 50
     length = 80
-    for i in range(100):
+    for i in range(50):
         diamond.forward(length)
         diamond.left(angle)
         diamond.forward(length)
@@ -83,7 +81,7 @@ yellow_sun.speed(0)
 yellow_sun.color('yellow')
 
 
-def inner_circle(t, size):
+def draw_inner_circle(t, size):
     """
     This is the function to draw 1 circle in yellow color
     :param: string, draw a circle
@@ -91,6 +89,9 @@ def inner_circle(t, size):
     :return: none
     """
     t.circle(size)
+
+
+def draw_inner_circle_repeat(t, size, repeat):
     """
     This is the function to draw circles for one round. circles in yellow
     color 60 and repeat 60 times
@@ -99,15 +100,12 @@ def inner_circle(t, size):
     :param: int or float, circles to draw in one round
     :return: yellow circles in one round, repeated 50 times
     """
-
-
-def inner_circle_repeat(t, size, repeat):
     for i in range(repeat):
-        inner_circle(t, size)
+        draw_inner_circle(t, size)
         t.right(360 / repeat)
 
 
-inner_circle_repeat(yellow_sun, 50, 50)
+draw_inner_circle_repeat(yellow_sun, 50, 50)
 ring = turtle.Turtle()
 ring.speed(0)
 
