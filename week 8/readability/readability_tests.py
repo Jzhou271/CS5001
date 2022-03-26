@@ -1,9 +1,3 @@
-"""
-CS5001
-Jing Zhou
-Lab 8
-test file for readability.py
-"""
 import readability
 
 
@@ -12,6 +6,25 @@ def test_analyze_file_data():
     This is the fixed test for analyze_file_data() in readability.py,
     to check if actual outputs are the same as expected outputs
     """
+    # test method using input a txt file to runout the output
+    input_file = open("declaration.txt")
+    actual_sentences, actual_words, actual_syllables = \
+        readability.analyze_file_data(input_file)
+    expected_sentences, expected_words, expected_syllables = 56, 1322, 2178
+    if actual_sentences != expected_sentences or \
+            actual_words != expected_words or \
+            actual_syllables != expected_syllables:
+        print("FAILED ON THE TEST")
+        print("Expected sentences is", expected_sentences,
+              "But actual sentences is", actual_sentences)
+        print("Expected words is", expected_words,
+              "But actual words is", actual_words)
+        print("Expected syllables is", expected_syllables,
+              "But actual syllables is", actual_syllables)
+    else:
+        print("PASSED ON THE TEST")
+
+    # test method using input a string to runout the output
     test_text = ["flesch invented a simple tool to estimate the \
 legibility of a document without linguistic analysis."]
     actual_sentences, actual_words, actual_syllables = \
