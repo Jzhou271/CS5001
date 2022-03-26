@@ -140,7 +140,6 @@ def main():
     # Close the file.
     input_file.close()
 
-
     # Output result.
     print()
     print("Syllables:", syllables)
@@ -152,14 +151,6 @@ def main():
     print("Flesch Index: {0:.1f}".format(index))
     print("Flesch Grade:", grade)
 
-
-    sentences, words, syllables = \
-               readability.analyze_file_data \
-               (["flesch invented a simple tool to estimate the legibility of a \
-document without linguistic analysis."])
-    print(sentences, words, syllables)
-    print(readability.count_syllables("contender"))
-
-
+    
 if __name__ == '__main__':
     main()
