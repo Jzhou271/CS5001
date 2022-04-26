@@ -1,7 +1,4 @@
 """
-CS5001
-Jing Zhou
-Homework 7
     Connect Four -- Testcases
     Imports from connect_four.py, and tests the ConnectFour class by creating
     objects, calling methods on those objects, and make sure the values of the
