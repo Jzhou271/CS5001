@@ -1,7 +1,4 @@
 """
-CS5001
-Jing Zhou
-Homework 7
 Design a board by 6 rows and 7 columns and players cannot put a piece anywhere.
 The piece will "fall" to the lowest empty space in that column.
 While any direction of 4 pieces are connected, the winner wins the game,
