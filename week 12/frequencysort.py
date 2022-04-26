@@ -1,5 +1,4 @@
 """
-Jing Zhou
 Lab 12 Efficiency, Searching, and Sorting
 If two elements have different frequencies, then the one which has a greater
 frequency should come first.
