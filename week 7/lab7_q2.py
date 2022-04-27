@@ -1,7 +1,4 @@
 """
-CS5001
-Lab 7
-Jing Zhou
 2. Count by 5s again
 """
 
