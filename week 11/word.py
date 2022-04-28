@@ -1,7 +1,4 @@
 """
-CS5001
-Jing Zhou
-Lab 11
 Stacks and Queues
 Using stacks and queues to determine if the input string is a palindrome,
 and to determine if the input string repeats itself a given number of times. 
