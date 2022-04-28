@@ -1,7 +1,4 @@
 """
-CS5001
-Jing Zhou
-Homework 6
 Maze Solver -- test file of Maze Solover
 To test functions are not required keyboard input, to check if its expected
 outputs are the same as actual outputs.
