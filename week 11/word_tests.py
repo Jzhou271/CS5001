@@ -1,7 +1,4 @@
 """
-CS5001
-Jing Zhou
-Lab 11
     Stacks and Queues -- Testcases
     Imports from word.py, and tests the Word class by creating objects,
     calling methods on those objects, and make sure the values of the attributes
