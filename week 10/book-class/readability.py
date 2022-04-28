@@ -1,7 +1,4 @@
 """
-CS5001
-Jing Zhou
-Lab 8
 What to do
 to implement the functions that are required by the provided driver program.
 modify the driver program so that any errors that are raised by the modules
