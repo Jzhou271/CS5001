@@ -1,13 +1,22 @@
 '''
-Jing Zhou
-CS5001 Final --- recursion testfile
+recursion testfile
 '''
 import recursion
 import unittest
 
 
 class Testrecursion(unittest.TestCase):
-    def test_zero_length(self):
+    def test_positive_integer(self):
+        """
+        This test function has a positive integer as input, and we are also
+        testing the size of the output, to see if it matches with the input
+        length
+        """
+        input_number = 3
+        output = recursion.list_of_strings_loop(input_number)
+        self.assertEqual(input_number, len(output))
+
+    def test_zero_input(self):
         """
         The test function tests 0 input case for list_of_strings_loop(),
         will be return an empty list
@@ -17,7 +26,7 @@ class Testrecursion(unittest.TestCase):
         expected = []
         self.assertEqual(actual, expected)
 
-    def test_negative_length(self):
+    def test_negative_input(self):
         """
         The test function tests negative number input for
         list_of_strings_loop(), will be raise ValueError
@@ -25,7 +34,7 @@ class Testrecursion(unittest.TestCase):
         with self.assertRaises(ValueError):
             recursion.list_of_strings_loop(-5)
 
-    def test_type_of_length(self):
+    def test_type_of_input_float(self):
         """
         The test function tests type of input number for list_of_strings_loop        
         the type of number must be an integer, otherwise, will be raise
@@ -33,6 +42,15 @@ class Testrecursion(unittest.TestCase):
         """
         with self.assertRaises(ValueError):
             recursion.list_of_strings_loop(3.77)
+
+    def test_type_of_input_boolean(self):
+        """
+        The test function tests type of input number for list_of_strings_loop        
+        the type of number must be an integer, otherwise, will be raise
+        ValueError
+        """
+        with self.assertRaises(ValueError):
+            recursion.list_of_strings_loop(True)
 
     def test_recursive_fixed(self):
         """
